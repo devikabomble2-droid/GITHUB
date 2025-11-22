@@ -3,12 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About | Devika Github</title>
+    <style>
+        .navbar {
+            background-color: #222;
+            padding: 12px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+            margin-bottom: 30px;
+        }
+        .navbar-container {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+        .navbar-brand {
+            color: #fff;
+            font-size: 1.3em;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        .navbar-links a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 18px;
+            font-size: 1em;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        .navbar-links a:hover {
+            color: #4CAF50;
+        }
+        h1 {
+            color: #333;
+            background-color: #f0e68c;
+            padding: 10px;
+            text-align: center;
+        }
+        .about-content {
+            max-width: 700px;
+            margin: 30px auto;
+            background: #e6f7ff;
+            padding: 30px;
+            border-radius: 8px;
+            font-size: 1.1em;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+    </style>
 </head>
 <body>
-    <h1>This is about file</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam consectetur incidunt id rem dolores molestias ipsam laboriosam ipsum. Quo nemo et voluptatem, esse praesentium dicta reiciendis iste molestias obcaecati sapiente?
-        
-    </p>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <span class="navbar-brand">Devika | Github</span>
+            <div class="navbar-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <h1>About Us</h1>
+    <div class="about-content">
+        <p>
+            Welcome to Sharnbasava University!<br><br>
+            This website is a demonstration of a simple HTML and CSS project, featuring a modern navigation bar and clean layout. Here you can find information about our university, contact details, and more.<br><br>
+            Feel free to explore the Home and Contact pages using the navigation bar above.
+        </p>
+    </div>
 </body>
 </html>
